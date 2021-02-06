@@ -1,7 +1,7 @@
 body{
     background: #000000;
     color:#ffffff;
-    font-family: "Times New Roman", Arial;
+    font-family: "Times New Roman", sans-serif;
 }
 h1{
     font-size: 64px;
@@ -19,11 +19,12 @@ p{
 img{
     display: block;
     margin: auto;
-    max-width: 500px;
+    width: 550px;
+    height: auto;
 
 }
 div{
-    height:150px;
+    min-height:150px;
     padding-top:25px;
     padding-bottom:25px;
     padding-left:25px;
